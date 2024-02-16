@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
