@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poly:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-image: url(https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/background.png);
+    background-image: url(../../assets/background.png);
+    /*background-image: url(https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/background.png);*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000;
+
     color: #fff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-style: normal;
 }
 
 section {
@@ -15,11 +22,20 @@ section {
     flex-direction: column;
 }
 
-h1, h2, h3 {
-    text-shadow: #00ff2a 2px 2px;
-}
 h1 {
-    font-size: clamp(12px, 20vh, 240px);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+    text-shadow: #00ff2a 5px 5px;
+    font-size: clamp(40px, 8vw, 128px);
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: "Poly", serif;
+    font-size: clamp(20px, 2vw, 64px);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 ::-webkit-scrollbar {
     width: 0px;
