@@ -4,7 +4,9 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
 }
+
 section {
     height: 100vh;
     display: flex;
@@ -12,3 +14,14 @@ section {
     justify-content: center;
     flex-direction: column;
 }
+
+h1, h2, h3 {
+    text-shadow: #00ff2a 2px 2px;
+}
+h1 {
+    font-size: clamp(12px, 20vh, 240px);
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
