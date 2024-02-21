@@ -25,7 +25,7 @@ section {
 h1 {
     font-family: "Work Sans", sans-serif;
     font-weight: 900;
-    text-shadow: #00ff2a 5px 5px;
+    text-shadow: #17CE9D 5px 5px;
     font-size: clamp(40px, 8vw, 128px);
     margin: 0;
     padding: 0;
@@ -33,9 +33,21 @@ h1 {
 h2 {
     font-family: "Poly", serif;
     font-size: clamp(20px, 2vw, 64px);
-    font-weight: 700;
+    font-style: italic;
+    font-weight: 400;
     margin: 0;
     padding: 0;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+ul li i {
+    color: #17CE9D;
+    font-size: clamp(20px, 2vw, 64px);
 }
 ::-webkit-scrollbar {
     width: 0px;
