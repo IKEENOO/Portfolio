@@ -11,18 +11,15 @@ export class Main extends Component {
                     <div className="links">
 
                         <a href="https://github.com/IKEENOO" target="_blanc">
-                            <i class="fa-brands fa-square-github"></i>
-                            <img src="../../assets/github.png" alt="github"/>
+                            <img src="https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/github.png" alt="github"/>
                         </a>
 
                         <a href="https://www.linkedin.com/in/kudryavstev/" target="_blanc">
-                            <i class="fa-brands fa-linkedin" ></i>
-                            <img src="../../assets/linkedin.png" alt="linkedin"/>
+                            <img src="https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/linkedin.png" alt="linkedin"/>
                         </a>
 
                         <a href="mailto:kudryavtsev.dev@gmail.com" target="_blanc">
-                            <i class="fa-solid fa-square-envelope"></i>
-                            <img src="code/src/assets/linkedin.png" alt="gmail"/>
+                            <img src="https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/gmail.png" alt="gmail"/>
                         </a>
 
                     </div>

@@ -40,12 +40,12 @@ h2 {
 .links {
     display: flex;
     flex-direction: row;
-    gap: 30px;
 }
-.links a {
+.links img {
     text-decoration: none;
     color: #17CE9D;
-    font-size: clamp(20px, 2vw, 64px);
+    margin: 25px;
+    width: clamp(20px, 2vw, 64px);
 }
 ::-webkit-scrollbar {
     width: 0px;
