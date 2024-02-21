@@ -8,24 +8,24 @@ export class Main extends Component {
                 <section>
                     <h1>KUDRYAVTSEV</h1>
                     <h2>frontend developer</h2>
+                    <div className="links">
 
-                    <ul>
-                        <li>
-                            <a href="https://github.com/IKEENOO" target="_blanc">
-                                <i class="fa-brands fa-square-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/kudryavstev/" target="_blanc">
-                                <i class="fa-brands fa-linkedin" ></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:kudryavtsev.dev@gmail.com" target="_blanc">
-                                <i class="fa-solid fa-square-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
+                        <a href="https://github.com/IKEENOO" target="_blanc">
+                            <i class="fa-brands fa-square-github"></i>
+                            <img src="../../assets/github.png" alt="github"/>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/kudryavstev/" target="_blanc">
+                            <i class="fa-brands fa-linkedin" ></i>
+                            <img src="../../assets/linkedin.png" alt="linkedin"/>
+                        </a>
+
+                        <a href="mailto:kudryavtsev.dev@gmail.com" target="_blanc">
+                            <i class="fa-solid fa-square-envelope"></i>
+                            <img src="code/src/assets/linkedin.png" alt="gmail"/>
+                        </a>
+
+                    </div>
                 </section>
                 {/*
                 <section>
@@ -48,7 +48,7 @@ export class Main extends Component {
                     <h3>Contact me</h3>
                 </section>
                 */}
-                
+
             </>
         );
     }
