@@ -1,14 +1,20 @@
 import React, { Component } from "react";
+import AOS from 'aos';
 import "./main.css";
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 export class Main extends Component {
     render() {
         return (
             <>
                 <section>
-                    <h1>KUDRYAVTSEV</h1>
-                    <h2>frontend developer</h2>
-                    <div className="links">
+                    <h1 data-aos="fade-right">KUDRYAVTSEV</h1>
+                    <h2 data-aos="fade-left">frontend developer</h2>
+                    
+                </section>
+                {/*<div className="links">
 
                         <a href="https://github.com/IKEENOO" target="_blanc">
                             <img src="https://cdn.jsdelivr.net/gh/IKEENOO/Portfolio/code/src/assets/github.png" alt="github"/>
@@ -23,8 +29,6 @@ export class Main extends Component {
                         </a>
 
                     </div>
-                </section>
-                {/*
                 <section>
                     <p>Hi, i'm Oleg</p>
                 </section>
